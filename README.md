@@ -7,4 +7,4 @@ npm install
 npm run android   # or npm run ios or npm run web
 ```
 
-Expo will start the Metro bundler and provide instructions for running the app on your target device. Ensure the Expo CLI is installed globally if the `expo` command is not found.
+The scripts use `npx` so you don't need a global Expo CLI installation. When run for the first time Expo CLI will be downloaded automatically.
